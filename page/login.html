@@ -1,10 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
+<!doctype html>
+<html class="no-js" lang="ko">
 
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/bootstrap.css"/>
+  <link rel="stylesheet" href="/css/bootstrap-grid.css"/>
+  <link rel="stylesheet" href="/css/bootstrap-reboot.css"/>
+  <link rel="stylesheet" href="/css/login.css">
+</head>
+
+<body class="login-body">
+<div class="video-wrapper">
+  <video playsinline autoplay muted loop poster="cake.jpg" class="login-video">
+    <source src="/movie/intro.webm" type="video/webm">
+    <source src="/movie/intro.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="login-container container-fluid vh-100">
+    <div class="row">
+      <div class="login-wrap col d-flex justify-content-center align-items-center vh-100">
+        <form class="login-form">
+          <div class="logo-box form-group text-center">
+            <img src="/img/xenoplex_logo.png" alt="logo" class="logo-image">
+          </div>
+          <div class="id-box form-group">
+            <label for="inputId">ID</label>
+            <input type="text" class="form-control form-control-lg" id="inputId" aria-describedby="emailHelp" placeholder="아이디를 입력해주세요.">
+          </div>
+          <div class="pw-box form-group">
+            <label for="inputPassword">Password</label>
+            <input type="password" class="form-control form-control-lg" id="inputPassword" placeholder="패스워드를 입력해주세요.">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">아이디 저장</label>
+          </div>
+          <button type="submit" class="btn w-100 py-3 font-weight-bold">LOGIN</button>
+
+          <div class="icon-box text-center mt-5">
+            <span class="material-icons mr-2">auto_stories</span>
+            <span class="material-icons">file_download</span>
+          </div>
+
+          <div class="text-center">
+            <span class="copy-txt">Copyright 2022. Xenoplex All rights reserved.</span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/bootstrap.bundle.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 </html>

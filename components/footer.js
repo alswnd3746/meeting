@@ -63,7 +63,7 @@ class Footer extends HTMLElement {
   }
 
   connectedCallback() {
-// Query the main DOM for FA
+    // Query the main DOM for FA
     const fontAwesome = document.querySelector('link[href*="font-awesome"]');
     const shadowRoot = this.attachShadow({ mode: 'closed' });
 
